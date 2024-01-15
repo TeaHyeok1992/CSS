@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .abox p {color: blueviolet;} p태그 전체다 선택됨*/
+        /* .abox > p {color: aquamarine;} //바로 직계 자식 p태그만 선택함 */
+        .abox > ul > li > p {color: blueviolet;}
+        .bbox {color: cadetblue;}
+    </style>
+
+
+
+</head>
+<body>
+    <div class="abox">
+        <p>하위선택자</p>
+        <p>하위선택자</p>
+
+        <ul>
+            <li><p>하위선택자</p></li>
+            <li><b class="bbox">하위선택자</b></li>
+        </ul>
+    </div>
+
+
+    <style>
+
+        .cbox input[type=password] {color: crimson;}
+        .cbox input[name="aaa"] {color: darkorchid;}
+        .dbox li[class*="n"] {color: rgb(26, 29, 223);}
+    </style>
+
+
+    <div>
+        <ul class="cbox">
+            ID:<input type="text" name="aaa" value="속성선택자">
+            Name:<input type="text" name="bbb">
+            pw:<input type="password" name="ccc">
+        </ul>
+        
+
+    </div>
+
+    <div class="dbox">
+        <ul><li class="n1">하나</li></ul>
+        <ul><li class="n2">둘</li></ul>
+        <ul><li class="n3">셋</li></ul>
+        <ul><li class="n4">야</li></ul>
+        <ul><li class="n5">!</li></ul>
+
+    </div>
+
+
+
+
+
+
+</body>
+</html>
