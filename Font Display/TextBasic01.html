@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=p, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .abox {
+            text-align: center;
+            color: darkmagenta;
+            text-decoration: underline;/*중앙정렬,darkmagenta색으로 변경 밑줄추가*/
+
+
+        }
+        a{
+            text-decoration: none;
+            color: black; /* a태그를 밑줄 삭제하고 컬러를 바까주어서 일반 텍스트 처럼 보이게 됨*/
+        }
+
+        .bbox img{/*img를 기준으로 잡았습니다.*/
+
+            vertical-align: bottom;/*문단정렬은 기준을 정해주어야 합니다.*/
+
+        }
+        /* 문단을 세로에서 정가운데로 보내야 하는데 기준이 될 태그가 없는경우가 있다. */
+
+        .cbox{
+            height: 200px;
+            width: 200px;
+            /*강제로 박스설정을 해주었다.*/
+            line-height: 200px; /*줄 간격 200px으로 고정되면서 가운데로 오게된다.*/
+            text-align: center;
+            border: 1px solid red;
+        }
+
+
+    </style>
+</head>
+<body>
+    <p class="abox">
+        Text options
+
+    </p>
+    <a href="">a letter for test</a>
+
+    <p class="bbox">
+        Hello there?
+        <br>
+        <img src="IMG/Cynosuralfield.gif" alt="image">
+        <br>
+        
+        Dread online
+
+    </p>
+
+    <p class="cbox">
+        Text Align Center
+    </p>
+
+
+</body>
+</html>
