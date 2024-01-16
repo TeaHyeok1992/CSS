@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #warp {
+            height: 500px;
+            border: 1px solid #777;
+            background-image: url('img/snow.jpg');
+            background-repeat: no-repeat;
+            background-size: contain;/*무조건 이미지가 잘리지 않도록 하고 나머지는 비웁니다.*/
+            background-size: cover; /*크기 background 전체를 다 덮습니다.근데 이미지는 짤립니다.*/
+        }
+        #drive{
+            height: 500px;
+            border: 1px solid #777;
+            background-image: url('img/gate.jpg');
+            background-size: cover;
+            /* background-attachment: scroll; 스크롤은 기본값입니다 */
+            background-attachment: fixed; /*백그라운드는 고정되고 스크롤에 따라 움직이지 않습니다.*/
+
+
+            
+
+        }
+    </style>
+</head>
+<body>
+    <section id="warp">
+        
+    </section>
+    <section id="drive">
+
+    </section>
+    <section style="height: 1000px; border: 1px solid #777;">
+
+    </section>
+</body>
+</html>

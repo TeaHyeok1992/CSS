@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{padding: 0; margin: 0;}
+        li,ul,dd{list-style: none;}
+        .gnd,.gnd2{
+            text-align: center;
+            background-color: black;
+            overflow: auto;
+
+        }
+        .gnd li,.gnd2 li{
+            
+            display: inline;
+
+        }
+        .gnd>li>a,.gnd2>li>a{
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            text-decoration: none;
+            color: white;
+        }
+        .gnd2>li>a{
+            text-align: right;
+        }
+        .logo img{
+            background-color: black;
+            text-align: center;
+        }
+            
+
+        }
+        .gnd>li>a:hover, .gnd2>li>a:hover{
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navi">
+            <ul class="gnd">
+                <li><a href="#">DUNKED</a></li>
+                <li><a href="#">jump?</a></li>
+                <li><a href="#">Jump??</a></li>
+                <li><a href="#">jump???</a></li>
+                <li><a href="#">dontjump</a></li>
+            </ul>    
+            <div class="logo">    
+                <img src="IMG/did he say jump.gif" class="cyno">
+            </div>
+            <ul class="gnd2">    
+                <li><a href="#">JUMP</a></li>
+                <li><a href="#">JUMP??</a></li>
+                <li><a href="#">did</a></li>
+                <li><a href="#">jump??</a></li>
+                <li><a href="#">JUMP?</a></li>
+            </ul>        
+        </nav>    
+    </header>
+</body>
+</html>

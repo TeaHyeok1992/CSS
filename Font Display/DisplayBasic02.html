@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{padding: 0; margin: 0;} /*여백을 없앤다*/
+        ul,li dl,dd {list-style: none;}/*리스트 스타일 삭제*/
+        .gnb{
+            text-align: center;
+            background-color: black;
+        }
+        
+        .gnb li{
+            
+            display: inline-block;
+        }
+        .gnb > li > a{
+            display: block;
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            text-decoration: none;
+            color: whitesmoke;
+            
+        }
+        .gnb>li>a:hover{
+            background-color: #333;
+        }
+        
+    </style>
+
+
+</head>
+<body>
+    <header>
+        <nav class="navi">
+            <ul class="gnb">
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Menu</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

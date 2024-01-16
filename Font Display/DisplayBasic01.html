@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            /* display: inline;인라인속성으로 변경 */  
+            /* display: block;배치구도를 블럭으로 바꿉니다. */
+            /* display: none; 출력값을 숨깁니다. */
+        .dbox a{
+            display: inline-block; /*width 와 height는 블럭 속성에만 값설정이 가능합니다.*/
+            /*인라인 배치(가로배치)를 하되 블럭 속성을 가지게 되므로 박스크기 설정이 가능하게 됨*/
+            width: 100px;
+            height: 100px;
+            border: 1px solid #777;
+            text-align: center;
+            line-height: 100px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="dbox">
+        <a href="#">make in inline?</a>
+        <a href="#">inline?</a>
+        <a href="#">what is inline-block source?</a>
+    </div>
+</body>
+</html>
