@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        img{
+            width: 100%;
+            height: auto;
+        }
+        .newbox{
+            width: 500px;
+            border: 1px solid #000;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .newbox .screen1{
+            border: 1px solid #777;
+            float: left;
+            width: 50%;
+            box-sizing: border-box;
+        }
+        .newbox .screen2{
+            border: 1px solid #777;
+            float: right;
+            width: 50%;
+            box-sizing: border-box;
+        }
+        .newbox .screen2 .writer{
+            padding-bottom: 80px;
+            
+        }
+        .newbox .screen2 .writer strong{
+            display: block;
+            
+        }
+        .newbox .screen2 .price {
+            border: 1px solid #777;
+            overflow:hidden;
+            box-sizing: border-box;
+        }
+        .newbox .screen2 .price .cost{
+            float: left;
+        }
+        .newbox .screen2 .price .mount{
+            float: right;
+        }
+        .newbox .screen2 .butt{
+            overflow: hidden;
+        }
+        .newbox .screen2 .butt button{
+            float: left;
+            width: 50%;
+            background-color: lightblue;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="newbox">
+        <div class="screen1">
+            <img src="img/gate.jpg" alt="">
+        </div>
+        <div class="screen2">
+            <div class="writer">
+                <strong>이편지는 영국에서</strong>
+                <strong>시작되어</strong>
+            </div>
+            <div class="price">
+                <strong class="cost">가격</strong>
+                <strong class="mount">10000원</strong>
+            </div>
+            <div class="butt">
+                <button>장바구니</button>
+                <button>구매하기</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

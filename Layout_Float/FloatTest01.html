@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0; padding: 0;
+        }
+        li,dd,ul{
+            list-style: none;
+        }
+        .abox{
+            width: 500px;
+            margin: 0 auto;
+        }
+        .abox .torpe{
+            border: 1px solid #777;
+        }
+        .abox .medium{
+            border: 1px solid #777;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .abox .medium li{
+            border: 1px solid #777;
+            display: inline-block;
+            width: 50%;
+            box-sizing: border-box;
+            
+            
+        }
+        .abox .last{
+            border: 1px solid #777;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="abox">
+        <div class="torpe">top</div>
+        <div class="medium">
+            <ul>
+                <li>mid</li><li>mid</li>
+            </ul>
+        </div>
+        <div class="last">bottom</div>
+    </div>
+</body>
+</html>
