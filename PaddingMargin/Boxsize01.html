@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .abox{
+            border: 1px solid #777;
+            max-width: 300px;
+            max-height:300px ;
+            /*최댓값- 설정이므로 글자수가 넘어가도 가변되지 않음, 단 글자수가 줄변 박스크기가 줄어듬*/
+            /* min-width: 300px; */
+            /* min-height: 300px; 최솟값 */
+        }
+        .box-content{
+            border: 1px solid #777;
+            width: 300px;
+            padding: 0px 20px;
+            /* box-sizing: content-box;기본값: 박스너비= 너비+패딩+윤곽 */
+            box-sizing: border-box;/*padding 과 border을 너비로 포함시켜서 계산됨*/
+        }
+    </style>
+</head>
+<body>
+    <p class="abox">
+        기다릴게 죽는 날까지
+        나 없다고 혼자 울지마
+        너의 눈물 위로할 수 있도록
+        그날까지만 참고 견뎌야 해
+        사랑해 눈을 감아도
+        단 한 번만 볼 수 있다면
+        하늘이여, 내 모든 걸 가져가
+        미련 없이 이 세상 떠나갈게
+        
+    </p>
+    <div class="box-content">
+         박스의 너비는 width+padding+border
+         문제점: 가변상자에서는 ?
+
+
+    </div>
+</body>
+</html>

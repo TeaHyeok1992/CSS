@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url('img/block.png');
+        }
+        .abox{
+            width: 500px;
+            height: 100px;
+            border: 1px solid #777;
+            background-color: aqua;
+            /* margin: 0px; 패딩과 마찬가지로 하나만 적으면 4방향 모두를 가리킵니다. */
+            margin-top: 5px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            margin-right: 5px;
+            /* margin: 5px 5px 10px 2px; 패딩과 마찬가지로 상 우 하 좌 순으로 읽습니다. */
+        }
+        .box{
+            margin: 0 auto; /*상자를 정가운데로 보낼때 사용합니다.*/
+        }
+    </style>
+</head>
+<body>
+    <p class="abox">
+        p태그는 기본으로 마진을 가지고 있습니다.
+    </p>
+    <p class="abox box">
+        마진끼리는 겹칠수도 있습니다. 마진은 주로 박스끼리 이격하기 위해 사용됩니다.
+    </p>
+</body>
+</html>

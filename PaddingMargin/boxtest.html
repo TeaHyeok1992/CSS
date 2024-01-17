@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        li,ul,dd{
+            text-decoration: none;
+        }
+        .libox{
+            background-color: black;
+            text-align: center;
+        }
+        .libox>ul>li{
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            color: whitesmoke;
+            line-height: 100px;
+            
+        }
+        .libox>ul>li>a{
+            text-decoration: none;
+            color: whitesmoke;
+        }
+        .libox>ul>li>a:hover{
+            background-color: grey;
+        }
+        
+        .imgbox{
+            background-image: url('img/amazon.jpg');
+            height: 500px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .daily{
+            padding: 50px 100px 50px 100px;
+        }
+        .contents{
+            
+            
+            max-width: 100px;
+            background-color: #777;
+            
+        }
+        .dex{
+            border: 1px solid #777;
+            min-width: 100px;
+            min-height: 100px;
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="libox">
+            <ul>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Meme</a></li>
+                <li><a href="#">Memed</a></li>
+                <li><a href="#">Stop</a></li>
+            </ul>   
+        </div>
+    </header>
+    <section class="imgbox"> 
+
+    </section>
+    <div class="daily">
+        <p class="contents">
+            오느레 발견
+        </p>
+        <p class="dex">
+            본문내용<br>
+            본문내용<br>
+            본문내용<br>
+            본문내용<br>
+            본문내용<br>
+            본문내용<br>
+        </p>
+    </div>
+</body>
+</html>
