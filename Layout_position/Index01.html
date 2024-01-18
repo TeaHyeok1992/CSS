@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wholebox{
+            width: 500px;
+            border: 1px solid #777;
+            margin: 0 auto;
+
+        }
+        p{
+            border: 1px solid #777;
+            height: 100px;
+            margin: 0;
+        }
+        .contentbox{
+            position: relative;
+        }
+        .Inner1{
+            background-color: aqua;
+        }
+        .Inner2{
+            background-color: darkorange;
+            position: absolute; /*position relative 설정된 부모영역 기반으로 움직인다.
+             절대좌표값으로 움직인다. 만약에 없다면 body기준으로 움직인다.*/
+            bottom: 10px;
+            right: 10px;
+        
+        }
+        .Inner3{
+            background-color: forestgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="wholebox">
+        <div class="contentbox">
+            <p class="Inner1">position1</p>
+            <p class="Inner2">position2</p>
+            <p class="Inner3">position3</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrap{
+            width: 500px;
+            margin: 0 auto;
+            box-shadow: 0 8px 16px rgb(0,0,0,0.15);
+            padding: 20px;
+            box-sizing: border-box;
+            border-radius: 20px;
+        }
+        .wrap .inputbox label{
+            display: block;
+            margin-top: 5px;
+            font-weight: 700;
+        }
+        .wrap .inputbox input{
+            display: block;
+            width: 100%;
+            padding: 10px;
+            font-size: 15px;
+            box-sizing: border-box;
+            border: 1px solid #000;
+
+        }
+        .wrap .inputbox input:focus{
+            outline: none;
+            border: 1px solid #000;
+        }
+        .wrap .inputbox button{
+            width: 100%;
+            background-color: blueviolet;
+            border: none;
+            color: #fff;
+            font-weight: 900;
+            font-size: 15px;
+            padding: 8px;
+            transition: all 0.8s ease-in-out 0s;/*변경할 속성, 시간,시간함수,딜레이*/
+        }
+        .wrap .inputbox button:hover{
+            background-color: darkcyan;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <h3>Sign Up</h3>
+        <div class="inputbox">
+            <label for="">ID</label>
+            <input type="text" placeholder="cap/odd/num 6+">
+            <label for="">PW</label>
+            <input type="password">
+        </div>
+        <div class="inputbox">
+            <button>Sign in</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{padding: 0; margin: 0;}
+        .warp{
+            border: 1px solid #777;
+            width: 500px;
+            margin: 0 auto;
+            position: relative;
+            padding: 10px;
+        }
+        .warp img{
+            position: absolute;
+            top: 10px;
+            left: 10px;
+
+        }
+        .contentbox{
+            padding-left: 60px;
+        }
+        .contentbox textarea{
+            width: 100%;
+            box-sizing: border-box;
+            min-height: 100px;
+            resize: none;
+            padding: 10px;
+        }
+        .control{
+            overflow: hidden;
+        }
+        .control .textbar{
+            float: left;
+            
+        }
+        .control .textbar input{
+            display: block;
+        }
+        .control button{
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="warp">
+        <img src="img/spongebob-you-what.gif" alt="uwhat" width="50px">
+        <div class="contentbox">
+            <textarea name="" id="" cols="30" rows="10">
+
+            </textarea>
+            <div class="control">
+                <div class="textbar">
+                    <input type="text">
+                    <input type="text" style="margin-top: 5px;">
+                </div>
+                <button>등록하기</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

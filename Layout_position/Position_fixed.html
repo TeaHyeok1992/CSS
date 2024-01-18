@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{padding: 0; margin: 0;}
+        ul,li,dd{list-style: none;}
+        header{
+            position: fixed;/*선택된 영역이 스크롤을 내리더라도 고정되서 보여지게됨*/
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 5;
+        }
+        
+        section{
+            height: 1500px;
+            margin-top: 194px; /*header영역의 크기만큼 마진으로 이격을 준다.*/
+            position: relative;
+        }
+        .logo{
+            text-align: center;
+            background-color: #000;
+            position: relative;
+        }
+        .nav .gnb{
+            background-color: #000;
+            text-align: center;
+        }
+        .nav .gnb li{
+            display: inline-block;
+        }
+        .nav .gnb li a{
+            display: block;
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            font-size: 15px;
+        }
+        .floating-btn{
+            background-color: red;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            position: absolute;
+            bottom: 15px;
+            right: 15px;/*z축은 기본적으로 나중에 선언된 태그가 가장 높은 위치에 존재하게됨*/
+            z-index: 10;/*인덱스 값이 높을수록 높은곳에 잇게되어 앞으로 튀어나오게됨*/
+
+            
+        }
+        
+        </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/snow.jpg" alt="snow" width="200">
+        </div>
+        <nav class="nav">
+            <ul class="gnb">
+                <li><a href="#">메뉴1</a></li>
+                <li><a href="#">메뉴1</a></li>
+                <li><a href="#">메뉴1</a></li>
+                <li><a href="#">메뉴1</a></li>
+                <li><a href="#">메뉴1</a></li    
+                </ul>
+            </nav>
+        </header>
+        
+        <section>
+            <div class="floating-btn">
+                <img src="" alt="" width="50px">
+            </div>
+            ......................................
+    </section>
+</body>
+</html>
