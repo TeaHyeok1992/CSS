@@ -4,20 +4,130 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{padding: 0; margin: 0;}
+        ul,li,dd{
+            list-style: none;
+        }
+        header{
+            margin: 0 auto;
+            text-align: center;
+            background-image: url('testimg/bg.png');
+            background-size: cover;
+            padding: 30px;
+            position: relative;
+        }
+        .applestore{
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+        }
+        .positiontop{
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            text-align: 50px;
+            line-height: 50px;
+            top: 15px;
+            right: 15px;
+            border: 1px solid #777;
+            background-color: crimson;
+        }
+        .positiontop a{
+            text-decoration: none;
+        }
+        .menubar{
+            background-color: #000;
+            text-align: center;
+            
+        }
+        .menubar ul li{
+            display:inline-block;
+        }
+        .menubar ul li a{
+            display: block;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            text-decoration: none;
+            color: white;
+        }
+        .menubar ul li a:hover{
+            background-color: #777
+        }
+       
+        .phonebox{
+            
+            width: 960px;
+            text-align: center;
+            margin: 0 auto;
+            overflow: hidden;
+            
+        }
+        .phonebox .phonemodel{
+            text-align: center;
+            width: 25%;
+            float: left;
+            margin: 40px 0;
+            box-sizing: border-box;
+            
+            
+        }
+        .phonebox .phonemodel p{
+            text-align: center;
+        }
+        .stickybomb{
+            text-align: center;
+            
+            
+        }
+        .stickybomb ul{
+            position: sticky;
+            top: 0;
+        }
+        .stickybomb ul li{
+            display: inline-block;
+        }
+        .stickybomb ul li a{
+            display: block;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            text-decoration: none;
+            color: #000;
+            
+        }
+        .mainboard{
+            text-align: center;
+            position: relative;
+        }
+        .leftside{
+            position: absolute;
+            top: 10px;
+            left: 350px;
+        }
+        .rightside{
+            position: absolute;
+            top: 10px;
+            right: 350px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <div class="screentop">
+        
+           
             <div class="applestore">
-                <div class="apple">
-                    <img src="" alt="">
-                </div>
-                APPLE STORE
+                
+                    <img src="testimg/logo.jpg" alt="">
+                
+                
             </div>
             <div class="positiontop">
                 <a href="#">top</a>
             </div>
-        </div>
+    </header>
         <div class="menubar">
             <ul>
                 <li><a href="#">m1</a></li>
@@ -26,23 +136,27 @@
                 <li><a href="#">m4</a></li>
             </ul>
         </div>
-    </header>    
-    <div class="viewboard">
-        <div class="phonemodels">
+        
+    
+        <div class="phonebox">
             <div class="phonemodel">
-                <img src="" alt="">
+                <img src="testimg/item01.png" alt="">
+                <p>iphone dis</p>
             </div>
             <div class="phonemodel">
-                <img src="" alt="">
+                <img src="testimg/item02.png" alt="">
+                <p>what</p>
             </div>
             <div class="phonemodel">
-                <img src="" alt="">
+                <img src="testimg/item03.png" alt="">
+                <p>why</p>
             </div>
             <div class="phonemodel">
-                <img src="" alt="">
+                <img src="testimg/item04.png" alt="">
+                <p>who</p>
             </div>
         </div>
-    </div>
+    
     <div class="stickybomb">
         <ul>
             <li><a href="#">i1</a></li>
@@ -52,16 +166,16 @@
         </ul>
     </div>
     <section class="mainboard">
-        <div class="largeimage">
-            <img src="" alt="">
-        </div>
+        <img src="testimg/ipad.jpg" alt="">
         <div class="leftside">
-            <img src="" alt="">
-            <img src="" alt="">
+            <img src="testimg/side01.png" alt="">
+            <br>
+            <img src="testimg/side03.png" alt="">
         </div>
         <div class="rightside">
-            <img src="" alt="">
-            <img src="" alt="">
+            <img src="testimg/side02.png" alt="">
+            <br>
+            <img src="testimg/side04.png" alt="">
         </div>
 
     </section>
