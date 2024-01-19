@@ -8,7 +8,7 @@ img{max-width: 100%; height: auto;}
 
 }
 #header .topborder .topbar{
-    width: 1080px;
+    width: 1008px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -40,7 +40,7 @@ img{max-width: 100%; height: auto;}
 
 
 #header .midborder .midbar{
-    width: 1080px;
+    width: 1008px;
     margin: 0 auto;
     overflow: hidden;
     text-align: center;
@@ -87,7 +87,7 @@ img{max-width: 100%; height: auto;}
     border-bottom: 1px solid #777;
 }
 #header .bottomborder .bottombar{
-    width: 1080px;
+    width: 1008px;
     margin: 0 auto;
     overflow: hidden;
     text-align: center;
@@ -115,17 +115,192 @@ img{max-width: 100%; height: auto;}
     font-weight: 700;
 
 }
-section{
-    margin: 0 auto;
-    text-align: center;
-    clear: both;
+#section{
+    margin-top: 50px;
 }
-section .albumborder{
-    width: 1080px;
+#section .shipyard{
+    margin: 0 auto;
+    width: 1008px;
+
+}
+#section .shipyard .container{
+    overflow: hidden;
+}
+#section .shipyard .container .list_warp{
+    float: left;
+    width: 480px;
+}
+#section .shipyard .container .slide_warp{
+    float: left;
+    width: 236px;
+    height: 312px;
+}
+#section .shipyard .container .user_warp{
+    float: left;
+    width: 280px;
+    box-sizing: border-box;
+}
+#section .shipyard .container .list_warp ul{
+    overflow: hidden;
+
+}
+#section .shipyard .container .list_warp ul li{
+    float: left;
+    width: 33.3333%;
+    position: relative;
     
 }
-section .albumborder h6{
-    margin-top: 30px;
+#section .shipyard .container .list_warp ul li.first{
+    padding-bottom: 4px;
+}
+#section .shipyard .container .list_warp ul li a{
+    position: relative;
     display: block;
+    width: 156px;
+    height: 156px;
+    
+}
+#section .shipyard .container .list_warp ul li a > span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:  rgb(0, 0,0,0.7);
+    color: white;
+    text-align: center;
+    height: 25px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 25px;
+    
+}
+#section .shipyard .container .list_warp ul  li .hover_content{
+    position: absolute;
+    width: 156px;
+    height: 156px;
+    left: 0;
+    top: 0;
+    line-height: 156px;
+    
+    background-color: rgb(0, 0,0,0.9);
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+#section .shipyard .container .list_warp ul li:hover > .hover_content{
+    opacity: 1;
+}
+.hover_content a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+}
+.slide_warp{
+    margin-left: 8px;
+}
+.user_warp{
+    margin-left: 4px;
+}
+.loginbox{
+    border: 1px solid #999999;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    height: 115px;
+}
+.loginbox .toplogin{
+    overflow: hidden;
+    
+} 
+.loginbox .toplogin .loginleft{
+    float: left;
+    font-size: 13px;
+    color: #999999;
+}
+.loginbox .toplogin .loginright{
+    float: right;
+    font-size: 13px;
+    color: #999999;
+}
+.loginbox button{
+    width: 100%;
+    border: none;
+    background-color: yellowgreen;
+    color: whitesmoke;
+    font-weight: 900;
+    padding: 10px 5px;
+    margin-top: 5px;
+}
+.prbox{
+    margin-top: 12px;
+}
 
+.banner{
+    margin: 0 auto;
+    width: 1008px;
+}
+.banner img{
+    width: 100%;
+    height: 82px;
+}
+.bottombox{
+    width: 1008px;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+.hotbox{
+    float: left;
+    width: 704px;
+
+}
+.hotbox h4{
+    border-bottom: 1px solid #000;
+    
+}
+.hotbox ul{
+    overflow: hidden;
+    width: 696px;
+}
+.hotbox ul li{
+    width: 223px;
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    margin: 16px 0;
+}
+.hotbox ul li a{
+    
+    display: block;
+    width: 100%;
+    
+}
+.hotbox ul li a img{
+    width: 100%;
+}
+.hotbox ul li .hotinfo{
+    display: block;
+    
+}
+.hotbox ul li .hotinfo .spantitle{
+    display: block;
+    font-size: 16px;
+    font-weight: 900;
+    
+}
+.hotbox ul li .hotinfo .spancont{
+    display: block;
+    font-size: 10px;
+    color: rgb(7, 7,7,0.7);
+
+}
+.hotbox ul li .hotinfo .spanhit{
+    display: inline-block;
+    font-size: 10px;
+    color: green;
+}
+.hotbox ul li .hotinfo .spannum{
+    display: inline;
+    font-size: 10px;
+    color: rgb(7, 7,7,0.7);
 }
