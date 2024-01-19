@@ -1,0 +1,76 @@
+*{padding: 0; margin: 0;}
+ul,li,dd,dl,ol{
+    list-style: none;
+}
+body{
+    background-image: url(testimg/bg.png);
+}
+header .logo{
+    text-align: center;
+    margin-top: 10px 0;
+
+}
+header nav .gnb{
+    background-color: #000;
+    text-align: center;
+}
+header nav .gnb li{
+    display: inline-block;
+}
+header nav .gnb li a{
+    display: block;
+    color: whitesmoke;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+}
+header nav .gnb li a:hover{
+    background-color: #4d4d4d;
+}
+header .top{
+    position: fixed;
+    right: 30px;
+    top: 30px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid #777;
+    background-color: crimson;
+    z-index: 10;
+    cursor: pointer;
+}
+.slider{
+    background-color: whitesmoke;
+}
+.slider ul{
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.slider ul li{
+    float: left;
+    width: 25%;
+    
+}
+.slider ul li span{
+    display: block;
+    text-align: center;
+}
+.memu{
+    background-color: whitesmoke;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+.memu ul li{
+    display: inline-block;
+}
+.memu ul li a{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding: 0 20px;
+    height: 30px;
+    line-height: 30px;
+}

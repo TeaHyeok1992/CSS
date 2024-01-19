@@ -1,0 +1,131 @@
+*{padding: 0; margin: 0;}
+ul,li,dd,dl,ol{list-style: none;}
+img{max-width: 100%; height: auto;}
+
+
+#header .topborder{
+    border: 3px solid greenyellow;
+
+}
+#header .topborder .topbar{
+    width: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#header .topborder .topbar .topleft{
+    float: left;
+    padding: 11px 7px;
+    font-size: 12px;
+    color: #999999;
+}
+#header .topborder .topbar .topright{
+    float: right;
+}
+#header .topborder .topbar .topright ul li{
+    display: inline-block;
+    border-left: 1px solid #777;
+    margin-top: 11px;
+}
+#header .topborder .topbar .topright ul li a{
+    display: block;
+    padding: 0 7px;
+    font-size: 12px;
+    color: #999999;
+    
+    
+}
+#header .topright li:nth-child(1){
+    border: none;
+}
+
+
+#header .midborder .midbar{
+    width: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+
+}
+#header .midborder .midbar .logoleft{
+    float: left;
+}
+#header .midborder .midbar fieldset{
+    float: left;
+    
+    background-image: url('meloimg/melon_search.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 36px 0 0 11px;
+    width: 330px;
+    height: 40px;
+    border: none;
+    z-index: 2;
+}
+#header .midborder .midbar fieldset input{
+    border: none;
+    width: 260px;
+    height: 25px;
+    margin: 7px 0 0 18px;
+    z-index: 8;
+}
+#header .midborder .midbar fieldset button{
+    background-image: url('meloimg/melon_btn.png');
+   
+    float: right;
+    height: 40px;
+    width: 45px;
+    margin: 0;
+    border: none;
+    cursor: pointer
+
+    
+}
+#header .midborder .midbar .logoright{
+    float: right;
+}
+#header .bottomborder{
+    border-bottom: 1px solid #777;
+}
+#header .bottomborder .bottombar{
+    width: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+#header .bottomborder .bottombar .normal{
+    float: left;
+    display:block;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    width: 75px;
+    height: 40px;
+}
+#header .bottomborder .bottombar .mymusic{
+    float: right;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+    width: 75px;
+    height: 40px;
+    font-weight: 700;
+
+}
+section{
+    margin: 0 auto;
+    text-align: center;
+    clear: both;
+}
+section .albumborder{
+    width: 1080px;
+    
+}
+section .albumborder h6{
+    margin-top: 30px;
+    display: block;
+
+}
