@@ -1,0 +1,7 @@
+.navbar-inverse{
+    background-color: blueviolet;
+    border-color: chartreuse;
+}
+.navbar{
+    border-radius: 0;
+}
