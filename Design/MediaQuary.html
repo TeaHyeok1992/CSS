@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{padding: 0; margin: 0;}
+        ul,li,dd{list-style: none;}
+        img{max-width: 100%; height: auto;}
+
+        /* 공통 디자인은 그대로 써줍니다. */
+
+        /*반응형 디자인의 기본은 % 단위를 씁니다. 부모영역에 대한 % 값으로 주로 씀*/
+        /* ul박스를 웹에서 6개 태블릿 4개 모바일 2개의 환경으로 만듭니다 */
+        @media(min-width:1240px){/*1240이상에서 동작 >>>웹환경*/
+            .boxx {
+                width: 90%;
+                border: 1px solid #777;
+                margin: 0 auto;
+                overflow: hidden;
+            }
+            .boxx li{
+                width: 16.66666%;
+                float: left;
+            }
+        }
+
+        @media(max-width:1239px) and (min-width:767px){/*1239이하일때 ~ 767 이상 에서 동작 >>> 태블릿 환경*/
+            .boxx{
+                width: 90%;
+                border: 1px solid #777;
+                margin: 0 auto;
+                overflow: hidden;
+            }
+            .boxx li{
+                width: 25%;
+                float: left;
+            }
+            
+        }
+        @media(max-width:766px){/*766이하일때 동작 >>> 모바일 환경*/
+            .boxx{
+                width: 90%;
+                border: 1px solid #777;
+                margin: 0 auto;
+                overflow: hidden;
+            }
+            .boxx li{
+                width: 50%;
+                float: left;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <ul class="boxx">
+        <li>box</li>
+        <li>box</li>
+        <li>box</li>
+        <li>box</li>
+        <li>box</li>
+        <li>box</li>
+        <li>box</li>
+        <li>box</li>
+        <li>box</li>
+        <li>box</li>
+        <li>box</li>
+        <li>box</li>
+    </ul>
+</body>
+</html>

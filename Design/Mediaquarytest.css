@@ -1,0 +1,139 @@
+*{padding: 0; margin: 0;}
+ul,li,dd,ol{list-style: none;}
+a{text-decoration: none;}
+img{max-width: 100%; height: auto;}
+
+@media(min-width:767px){
+    #warp{
+        width: 960px;
+        margin: 0 auto;
+
+    }
+    #warp .logo{
+        background-image: url(mediaquaryimg/bg.png);
+        height: 280px;
+    }
+    #warp .logo h1{
+        color: yellow;
+        font-weight: bold;
+        padding: 20px;
+    }
+    #warp #header nav ul{
+        overflow: hidden;
+        background-color: #c13333;
+    }
+    #warp #header nav ul li{
+        border: 1px solid #777;
+        float: left;
+        
+        width: 25%;
+        box-sizing: border-box;
+    }
+    #warp #header nav ul li a{
+       
+        display: block;
+        text-align: center;
+        box-sizing: border-box;
+        color: white;
+        padding: 20px 30px;
+    }
+    #warp #header nav ul li a:hover{
+        background-color: crimson;
+    }
+    #warp #section {
+        overflow: hidden;
+        clear: both;
+       
+    }
+    #warp #section .left{
+        float: left;
+        width: 700px;
+        font-size: 14px;
+        font-weight: 700;
+        
+    }
+    #warp #section .left .bantitle{
+        font-size: 24px;
+        font-weight: 900;
+    }
+    #warp #section .left .bansubtitle{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    #warp #section .right{
+        float: right;
+        
+        width: 200px;
+        height: 500px;
+        
+    }
+}
+@media(max-width:766px){
+    #warp{
+        width: 100%;
+        margin: 0 auto;
+
+    }
+    #warp .logo{
+        background-image: url(mediaquaryimg/bg.png);
+        height: 120px;
+    }
+    #warp .logo h1{
+        color: yellow;
+        font-weight: bold;
+        padding: 20px;
+    }
+    #warp #header nav ul{
+        
+        background-color: #c13333;
+    }
+    #warp #header nav ul li{
+        
+        display: block;
+        box-sizing: border-box;
+    }
+    #warp #header nav ul li a{
+       
+        display: block;
+        text-align: center;
+        box-sizing: border-box;
+        color: white;
+        padding: 10px 20px;
+    }
+    #warp #header nav ul li a:hover{
+        background-color: crimson;
+    }
+    #warp #section {
+        overflow: hidden;
+        clear: both;
+       
+    }
+    #warp #section .left{
+        float: left;
+        width: 100%;
+        font-size: 14px;
+        font-weight: 700;
+        
+    }
+    #warp #section .left .bantitle{
+        font-size: 24px;
+        font-weight: 900;
+    }
+    #warp #section .left .bansubtitle{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    #warp #section .right{
+        float: right;
+        
+        width: 100%;
+        
+        
+    }
+    #warp #section .right img{
+        width: 100%;
+    }
+    #footer{
+        color: #777;
+    }
+}
