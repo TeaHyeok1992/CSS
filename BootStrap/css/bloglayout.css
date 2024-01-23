@@ -3,6 +3,13 @@
         width: 20%;
     }
 }
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
 .section{
     padding-top: 60px;
 

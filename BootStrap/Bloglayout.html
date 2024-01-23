@@ -9,8 +9,57 @@
     <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/customReset.css">
     <link rel="stylesheet" href="css/bloglayout.css">
+    <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-inverse">
+            <div class="container x">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <!-- 로고영역 -->
+                <a class="navbar-brand" href="#">
+                  <img src="IMG/logo.svg" alt="logo" width="30px">
+                </a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">Eclipse</a></li>
+                  <li><a href="#">to the moon</a></li>
+                  <li><a href="#">from the Moon</a></li>
+                  <li><a href="#">type-Moon</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <form class="navbar-form navbar-right" action="/action_page.php">
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Search & Destroy">
+                      <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit">
+                          <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">search
+                    <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Main</a></li>
+                      <li><a href="#">Sub</a></li>
+                      <li><a href="#">ruff</a></li>
+                    </ul>
+                  </li>
+                  
+                </ul>
+                
+              </div>
+            </div>
+        </nav>    
+    </header>
     <section class="section">
         <div class="container">
             <h3>Blog Grid</h3>
