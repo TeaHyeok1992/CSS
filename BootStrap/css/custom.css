@@ -28,3 +28,28 @@
 .carousel-control.left{
     background-image: none;
 }
+.galaxy-list{
+    
+    padding: 5px;
+}
+.galaxy-list>li[class*=col-]{
+    padding: 5px;
+
+}
+.galaxy-link{
+    position: relative;
+    display: block;
+    text-align: center;
+    
+}
+.galaxy-list .galaxy-link .Arrows{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    background-color: #435234;
+    padding: 5px;
+    color: whitesmoke;
+}
+.galaxy-list .galaxy-link .Arrows:hover{
+    background-color: #0000EE;
+}
