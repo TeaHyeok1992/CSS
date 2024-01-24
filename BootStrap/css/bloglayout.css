@@ -98,7 +98,7 @@ h2 ,h3{
     display: block;
 }
 .prod-list-inner{
-    padding: 15px;
+    padding: 15px 0;
     overflow: hidden;
    
 }
@@ -109,6 +109,8 @@ h2 ,h3{
 .prod-list-inner .prod-content-hover{
     opacity: 0;
     overflow: hidden;
+    margin-top: -17px;
+    transition: all 0.3s ease-in-out;
     
 
 }
@@ -116,7 +118,7 @@ h2 ,h3{
     float: left;
 }
 .prod-list-inner .prod-content-hover ul li img{
-    width: 40px;
+    width: 30px;
 }
 .prod-list-inner:hover >.prod-content-hover{
     opacity: 1;

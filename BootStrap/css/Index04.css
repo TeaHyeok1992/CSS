@@ -1,6 +1,58 @@
-.join-style{
-    margin: 0 auto;
-    float: none;
-    box-shadow: 0 8px 16px rgb(0, 0, 0,.3);
-    padding: 40px 20px 10px;
+.post-board{
+    overflow: hidden;
+}
+.post-board .post-board-left{
+    float: left;
+}
+.post-board .post-board-right{
+    float: right;
+}
+.post-board-right ul{
+    margin-bottom: 130px;
+}
+.post-board-right ul li{
+    display: block;
+}
+.post-board .post-board-right .post-info{
+    font-size: 24px;
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+}
+.post-board .post-board-right .post-cost{
+    font-size: 32px;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    
+}
+.post-board .post-board-right .post-sminfo{
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(7, 7,7,.6);
+}
+.post-board .post-board-right .post-board-total{
+    overflow: hidden;
+}
+.post-board .post-board-right .post-board-total .total-string{
+    float: left;
+    font-weight: 900;
+}
+.post-board .post-board-right .post-board-total .total-numerics{
+    float: right;
+    font-size: 32px;
+    font-weight: 900;
+}
+.post-btn{
+    overflow: hidden;
+}
+.btn{
+    float: left;
+    width: 50%;
+    border: 1px solid #777;
+    font-size: 16px;
+}
+.purchase{
+    background-color: #337ab7;
+    color: whitesmoke;
 }
