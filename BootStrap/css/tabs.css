@@ -1,0 +1,12 @@
+.myNewtab > li{
+    width: 25%;
+    text-align: center;
+}
+
+.myNewtab > li > a{
+    color: black;
+    border: 1px solid #777;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus,.nav-tabs>li.active>a:hover{
+    color: crimson;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../BootStrap/css/customReset.css">
+    <style>
+        .box{
+            background-color: blueviolet;
+            display: flex;
+        }
+        .item{
+            background-color: aqua;
+            margin: 10px;
+            /* flex-grow: 1;크기 증가 속도 비율 */
+            /* flex-shrink: 1;크기 감소 속도 비율 */
+            align-self: stretch;
+        }
+        .it1{
+            /* flex-basis: 10%; */
+            /* flex-grow: 1; */
+            flex: 0 0 300px;
+        }
+        .it2{
+            /* flex-basis: 15%; */
+            /* flex-grow: 2; */
+            flex: 0 0 300px;
+        }
+        .it3{
+            /* flex-basis: 20%; */
+            /* flex-grow: 4; */
+            flex: 1 1 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container box">
+        <div class="item it1">1</div>
+        <div class="item it2">2</div>
+        <div class="item it3">3</div>
+        <div class="item it1">4</div>
+        <div class="item it2">5</div>
+        <div class="item it3">6</div>
+        <div class="item it1">7</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../BootStrap/css/customReset.css">
+    <link rel="stylesheet" href="css/Flex-dialogBasic.css">
+    <style>
+        /* 플랙스 문법에선 부모영역인 container와 자식요소인 item클래스로 구분됩니다. */
+        /* 각요소에 사용될 수 잇는 속성이 다릅니다. */
+        .container{
+            /* display: flex; */
+            /* display: inline-flex; */
+            display: flex;
+        }
+        .box{
+            background-color: yellow;
+
+        }
+        .box .item{
+            background-color: green;
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container box">
+        <div class="item">Tequila</div>
+        <div class="item">Vodka</div>
+        <div class="item">Pizzadapasta</div>
+    </div>
+    <div class="container box">
+        <div class="item">Rambogini</div>
+        <div class="item">Vodka</div>
+        <div class="item">Pizzadapasta</div>
+    </div>
+    <hr>
+    <style>
+        .container2{
+            display: flex;
+            flex-direction: column;
+            /* main AXies 지정  */
+        }
+    </style>
+    <div class="container2 box">
+        <div class="item">Tequila</div>
+        <div class="item">Vodka</div>
+        <div class="item">Pizzadapasta</div>
+    </div>
+    <hr>
+    <style>
+        .container3{
+            display: flex;
+            width: 300px;
+            /* flex-wrap: wrap; */
+            /* item을 한줄로 출력하면 no-wrap */
+            flex-flow: row wrap;
+            /* 주축설정과 wrap여부를 결정지을 수 있다. */
+            /* justify-content: flex-start; */
+            justify-content: flex-start;
+        }
+    </style>
+    <div class="container3 box">
+        <div class="item">Tequila</div>
+        <div class="item">Vodka</div>
+        <div class="item">Pizzadapasta</div>
+        <div class="item">Pizzadapasta</div>
+        <div class="item">Pizzadapasta</div>
+        <div class="item">Pizzadapasta</div>
+    </div>
+    <hr>
+    <style>
+        .container4{
+            display: flex;
+            text-align: center;
+            line-height: 50px;
+            /* justify-content: flex-end;뒤에서 부터 정렬 */
+            /* justify-content: center; 중앙정렬 */
+            /* justify-content: space-between;균등 거리 배치 */
+            /* justify-content: space-around; 테두리를 포함한 균등거리배치 */
+        }
+    </style>
+    <div class="container4 box">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </div>
+    <style>
+        .container5{
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            flex-wrap: wrap;
+            height: 300px;
+            text-align: center;
+            
+            background-color: blueviolet;
+            /* align-items: stretch; 기본값 주축의 반대속성에 대한 정렬 */
+            /* align-items: baseline; 글자의 시작지점으로 맞추기 */
+            /* align-items: center; 각 box의 중간으로 정렬 */
+            align-items: flex-start;
+            
+        }
+        .container5 .item{
+            background-color: crimson;
+            color: whitesmoke;
+            height: auto;
+        }
+    </style>
+    <div class="container5 box">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+    </div>
+    <hr>
+    <style>
+        .container6{
+            width: 50%;
+            display: flex;
+            height: 300px;
+            flex-wrap: wrap;
+            /* align-content: flex-end; 주축의 반대개념에 대한 뒤에서의 정렬 */
+            align-content: baseline;
+            background-color: aqua;
+            line-height: 50px;
+        }
+        .container6 .item{
+            height: auto;
+            background-color: crimson;
+            color: whitesmoke;
+            text-align: center;
+        }
+    </style>
+    <div class="container6 box">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+    </div>
+</body>
+</html>
